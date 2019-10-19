@@ -22,3 +22,10 @@ class Song
   end
   
 end
+
+adele = Artist.new
+adele.name = "Adele"
+who_cares = Song.new
+who_cares.name = "Who Cares"
+adele.add_song(who_cares)
+Artist.find_by_name("Adele").name
